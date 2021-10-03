@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+#reloj {
+    font-family: 'Inter', sans-serif;
+    font-size: 60px;
+    text-shadow: 0px 0px 1px #333;
+    color: #fff;
+}
+
+.reloj_contenedor {
+    background: linear-gradient(25deg, rgb(255, 0, 255), rgb(0, 247, 255));
+    padding: 25px;
+    max-width: 350px;
+    text-align: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+#fecha {
+    letter-spacing: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+}
